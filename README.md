@@ -1,4 +1,4 @@
-# Shipyard
+# MindShelf
 
 A Product Hunt–inspired MVP built with Next.js (App Router), React Context and dummy data.
 
@@ -13,7 +13,7 @@ Open http://localhost:3000
 ```bash
 git init
 git add .
-git commit -m "feat: initial Shipyard MVP"
+git commit -m "feat: initial MindShelf MVP"
 git branch -M main
 git remote add origin https://github.com/<your-username>/shipyard.git
 git push -u origin main

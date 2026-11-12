@@ -1,6 +1,6 @@
-# Shipyard — Wireframes, pages, colors, typography
+# MindShelf — Wireframes, pages, colors, typography
 
-**Idea:** Shipyard is a small Product Hunt–style site where independent makers launch side projects and visitors upvote and comment.
+**Idea:** MindShelf is a small Product Hunt–style site where independent makers launch side projects and visitors upvote and comment.
 
 ## Pages
 | Route | Purpose |
@@ -13,23 +13,23 @@
 **Home `/`**
 ```
 +--------------------------------------------------+
-| Shipyard                       [Launch a product]|
+| MindShelf                       [Launch a product]|
 +--------------------------------------------------+
 |  New products from independent makers,           |
 |  ranked by you.                                  |
 |  (All) (Productivity) (Developer tools) (Design) |
 |  +--------------------------------------------+  |
-|  | 1  Tidepool                          [▲ 214]|  |
+|  | 1  Breathe Box                          [▲ 214]|  |
 |  |    A calm inbox that groups email...        |  |
 |  +--------------------------------------------+  |
-|  | 2  Plumb                             [▲ 188]|  |
+|  | 2  Three Lines                             [▲ 188]|  |
 |  +--------------------------------------------+  |
 +--------------------------------------------------+
 ```
 **Product `/products/[id]`**
 ```
 | < Back to all products                           |
-| Tidepool                                 [▲ 214] |
+| Breathe Box                                 [▲ 214] |
 | A calm inbox that groups email by project        |
 | Description paragraph...                         |
 | Comments (1)                                     |
@@ -48,11 +48,11 @@
 ## Colors
 | Name | Hex | Use |
 |---|---|---|
-| Fog | `#EEF2F6` | Page background |
+| Fog | `#EEF4F1` | Page background |
 | Surface | `#FFFFFF` | Cards, inputs |
-| Ink | `#0F1B2D` | Text |
-| Harbor | `#0B6E99` | Buttons, links, logo |
-| Buoy | `#FFC93C` | Active upvote (the one bright accent) |
+| Ink | `#1B2B2A` | Text |
+| Harbor | `#2F7D6D` | Buttons, links, logo |
+| Buoy | `#F6D186` | Active upvote (the one bright accent) |
 
 ## Typography
 - **Headings:** Bricolage Grotesque (700–800), tight tracking
