@@ -20,7 +20,7 @@ export default function Submit() {
 
   return (
     <section className="detail">
-      <h1>Launch a product</h1>
+      <h1>Share a tool</h1>
       <form className="form" onSubmit={submit}>
         <label>Product name<input value={f.name} onChange={set("name")} /></label>
         <label>Tagline<input value={f.tagline} onChange={set("tagline")} maxLength={70} /></label>
@@ -32,7 +32,7 @@ export default function Submit() {
           </select>
         </label>
         {error && <p className="error" role="alert">{error}</p>}
-        <button className="btn" type="submit">Launch product</button>
+        <button className="btn" type="submit">Share tool</button>
       </form>
     </section>
   );

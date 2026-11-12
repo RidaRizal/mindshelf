@@ -1,10 +1,10 @@
-export const CATEGORIES = ["All", "Productivity", "Developer tools", "Design", "AI"];
+export const CATEGORIES = ["All", "Meditation", "Journaling", "Sleep", "Mood tracking"];
 
 export const initialProducts = [
-  { id: "1", name: "Tidepool", tagline: "A calm inbox that groups email by project", description: "Tidepool sorts your email into project pools so you only see what needs action today. Built by two ex-support leads.", category: "Productivity", maker: "Anika R.", votes: 214, comments: [{ id: "c1", author: "Dev", text: "Finally an inbox that doesn't shout at me." }] },
-  { id: "2", name: "Plumb", tagline: "Spot broken API contracts before you deploy", description: "Plumb compares your OpenAPI spec across branches and flags breaking changes in pull requests.", category: "Developer tools", maker: "Marcus L.", votes: 188, comments: [] },
-  { id: "3", name: "Swatchbook", tagline: "Build accessible color palettes in minutes", description: "Pick one brand color and get a full palette with contrast scores checked against WCAG.", category: "Design", maker: "Priya S.", votes: 156, comments: [] },
-  { id: "4", name: "Margin", tagline: "AI notes that link back to the exact paragraph", description: "Highlight text anywhere on the web and Margin summarizes it, keeping a link to the source.", category: "AI", maker: "Tomás V.", votes: 132, comments: [] },
-  { id: "5", name: "Standup Bot", tagline: "Async standups that take 30 seconds", description: "Your team answers three questions in chat and gets a daily digest. No meetings.", category: "Productivity", maker: "Hana K.", votes: 97, comments: [] },
-  { id: "6", name: "Glyphcheck", tagline: "Find missing characters in any font file", description: "Drop in a font and see which languages it fully supports.", category: "Design", maker: "Leo B.", votes: 64, comments: [] },
+  { id: "1", name: "Breathe Box", tagline: "A 2-minute guided breathing reset", description: "Pick how you feel (anxious, restless, overwhelmed) and get a short breathing exercise made for it. No account needed.", category: "Meditation", maker: "Anika R.", votes: 214, comments: [{ id: "c1", author: "Dev", text: "Used it before an exam. The 2-minute length is perfect." }] },
+  { id: "2", name: "Three Lines", tagline: "Journal in just three lines a day", description: "One line for how you feel, one for what happened, one for something good. That is the whole app.", category: "Journaling", maker: "Marcus L.", votes: 188, comments: [] },
+  { id: "3", name: "Dusk", tagline: "Wind-down audio that fades out on its own", description: "Soft sounds and slow stories that fade as you fall asleep, then stop so they do not wake you up.", category: "Sleep", maker: "Priya S.", votes: 156, comments: [] },
+  { id: "4", name: "Weather Check", tagline: "Log your mood like a weather report", description: "Tap sunny, cloudy or stormy once a day. See patterns over weeks and share them with a doctor if you choose.", category: "Mood tracking", maker: "Tomás V.", votes: 132, comments: [] },
+  { id: "5", name: "Pause Button", tagline: "A one-tap grounding exercise for panic moments", description: "Name 5 things you can see, 4 you can touch, and so on. Works offline.", category: "Meditation", maker: "Hana K.", votes: 97, comments: [] },
+  { id: "6", name: "Good Things", tagline: "Save small wins and read them on bad days", description: "Add a note whenever something goes well. Open the app on a hard day and it shows you one at random.", category: "Journaling", maker: "Leo B.", votes: 64, comments: [] },
 ];

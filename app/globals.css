@@ -1,11 +1,11 @@
 :root {
-  --fog: #eef2f6;
+  --fog: #eef4f1;
   --surface: #ffffff;
-  --ink: #0f1b2d;
+  --ink: #1b2b2a;
   --muted: #5b6b80;
   --line: #d5dde6;
-  --harbor: #0b6e99;
-  --buoy: #ffc93c;
+  --harbor: #2f7d6d;
+  --buoy: #f6d186;
   --radius: 10px;
 }
 * { box-sizing: border-box; }
@@ -18,7 +18,7 @@ a { color: inherit; text-decoration: none; }
 .nav-inner { display: flex; justify-content: space-between; align-items: center; padding-block: .9rem; padding-bottom: .9rem; }
 .logo { font-size: 1.4rem; font-weight: 800; color: var(--harbor); }
 .btn { background: var(--harbor); color: #fff; border: 0; padding: .55rem 1rem; border-radius: var(--radius); font: inherit; font-weight: 600; cursor: pointer; }
-.btn:hover { background: #095a7d; }
+.btn:hover { background: #256558; }
 .hero { padding: 2.5rem 0 1.25rem; }
 .hero h1 { font-size: clamp(1.9rem, 5vw, 2.8rem); line-height: 1.1; font-weight: 800; }
 .hero p { color: var(--muted); max-width: 52ch; }
@@ -48,3 +48,4 @@ a { color: inherit; text-decoration: none; }
 .form input, .form textarea, .form select { font: inherit; padding: .6rem; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
 .form .btn { justify-self: start; }
 .error { color: #b3261e; margin: 0; }
+.foot { color: var(--muted); font-size: .85rem; padding-top: 2rem; }

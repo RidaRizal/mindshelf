@@ -6,7 +6,7 @@ import Navbar from "../components/Navbar";
 const display = Bricolage_Grotesque({ subsets: ["latin"], variable: "--font-display" });
 const body = Public_Sans({ subsets: ["latin"], variable: "--font-body" });
 
-export const metadata = { title: "Shipyard — launch your side project", description: "Discover and upvote new products from independent makers." };
+export const metadata = { title: "MindShelf — mental health apps worth trying", description: "Discover and upvote mental health apps and tools that people find helpful." };
 
 export default function RootLayout({ children }) {
   return (
@@ -15,6 +15,7 @@ export default function RootLayout({ children }) {
         <ProductsProvider>
           <Navbar />
           <main className="container">{children}</main>
+          <footer className="container foot">MindShelf lists tools shared by the community. It is not medical advice. If you are in crisis, contact local emergency services or a trusted person.</footer>
         </ProductsProvider>
       </body>
     </html>

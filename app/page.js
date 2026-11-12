@@ -14,12 +14,12 @@ export default function Home() {
   return (
     <>
       <section className="hero">
-        <h1>New products from independent makers, ranked by you.</h1>
-        <p>Upvote what you would actually use. The top of the list resets nothing — it just reflects today's votes.</p>
+        <h1>Mental health tools that people actually find helpful.</h1>
+        <p>Upvote the apps that helped you. Share one you love so others can find it.</p>
       </section>
       <CategoryFilter value={category} onChange={setCategory} />
       {list.length === 0 ? (
-        <p className="empty">Nothing in this category yet. Be the first to launch one.</p>
+        <p className="empty">Nothing here yet. Share the first tool in this category.</p>
       ) : (
         <ol className="list">
           {list.map((p, i) => <ProductCard key={p.id} product={p} rank={i + 1} />)}
